@@ -197,7 +197,9 @@ Few JSON samples of the blocks listed above are as follows....
                 "on_pass_3": "block_id",
                 "on_fail_3": "block_id"
             },
-            "pre-requisites" : ["lhs_block_1":{}, "rhs_block_1": {}, "on_pass_blk_1": {}, "on_fail_blk_1":{},"lhs_block_2":{}, "rhs_block_2": {}, "on_pass_blk_2": {}, "on_fail_blk_2":{}"lhs_block_3":{}, "rhs_block_3": {}, "on_pass_blk_3": {}, "on_fail_blk_3":{} ]
+            "pre-requisites" : ["lhs_block_1":{}, "rhs_block_1": {}, "on_pass_blk_1": {}, "on_fail_blk_1":{},
+                                "lhs_block_2":{}, "rhs_block_2": {}, "on_pass_blk_2": {}, "on_fail_blk_2":{},
+                                "lhs_block_3":{}, "rhs_block_3": {}, "on_pass_blk_3": {}, "on_fail_blk_3":{} ]
         }
     }
 }
