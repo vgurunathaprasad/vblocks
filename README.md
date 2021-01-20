@@ -43,6 +43,9 @@ Every sheet created is covered with `game-plan` class. Inside `game-plan`, the s
 Few JSON samples of the blocks listed above are as follows....
 
 ## Simple Input Loader Block
+
+Simple Input Loader Block will be used to provide a single data input to a function. The respective block's JSON reflection is given below.
+
 ```
 {
     "game-plan" {
@@ -59,6 +62,8 @@ Few JSON samples of the blocks listed above are as follows....
 ```
 
 ## Special Input Loader Block
+
+Special Input Loader Block is used to provide special or collective inputs to a function block. The respective block sample JSON reflection is as follows...
 
 ```
 {
@@ -78,6 +83,8 @@ Few JSON samples of the blocks listed above are as follows....
 
 ## File Stream Input Loader Block
 
+File Stream Input Loader Block  as the name suggests will be used to load files and use then as an input to a function. It must be understood that this block after selction of the file, the file will be uploaded to the server and respective file's URL will be appended with the block. On function call the provided URL will be processed to get the file.
+
 ```
 {
     "game-plan" : {
@@ -95,6 +102,8 @@ Few JSON samples of the blocks listed above are as follows....
 ```
 ## Builtin Function Block
 
+A Built in Function Block will be pre-listed and will represent a pre-implemented function on the server side. The below provided will represent a Built in Function block...
+
 ```
 {
     "game-plan" : {
@@ -111,6 +120,8 @@ Few JSON samples of the blocks listed above are as follows....
 ```
 
 ## Custom Function Block
+
+The Custom Function Block will allow the user to create user defined module or script on the server side and will allow the user to use the same in the play book. On creation if a Custom Function Block, a script file will be created in the server side and user's script will be written to the same. The JSON representation will use URL to locate the script and refer it when required while running the play book.
 
 ```
 {
@@ -131,6 +142,8 @@ Few JSON samples of the blocks listed above are as follows....
 
 ## Special Function Block
 
+Special Function block will allow the user to combine more than one functional block, so that it can be ran at one shot.
+
 ```
 {
     "game-plan" : {
@@ -145,6 +158,8 @@ Few JSON samples of the blocks listed above are as follows....
 ```
 
 ## Binary Conditional Block
+
+A Binary Conditional Block will allow the control flow of the play book to switch blocks based on a condition based on a Binary result switch (True or False condition).
 
 ```
 {
@@ -166,6 +181,8 @@ Few JSON samples of the blocks listed above are as follows....
 ```
 
 ## Fuzzy Conditional Block
+
+Fuzzy Conditional Block is used whem the condition may end up suggesting more than two paths. In other words it is a way to have multiple conditional flow in your play book.
 
 ```
 {
